@@ -1,8 +1,11 @@
-# TorArgus
+# TorArgus : 洋葱 🧅 阿耳戈斯（百眼巨人）
 
-<p align="center">
+<p align="right">
   <a href="README.en.md">EN</a> | <b>中文</b>
 </p>
+
+<img width="1983" height="793" alt="image" src="https://github.com/user-attachments/assets/73001877-8ec3-47b8-9773-5fb93e9bdae7" />
+
 
 > 把 Tor Browser 关进 macOS 沙箱 — 防止路过式下载，保护系统安全。
 
