@@ -1,7 +1,7 @@
 # TorArgus
 
 <p align="center">
-  <b>EN</b> | <a href="README.zh-CN.md">中文</a>
+  <a href="README.zh-CN.md">中文</a> | <b>EN</b>
 </p>
 
 > Put your Tor Browser into a macOS sandbox — prevent drive-by downloads and keep your system safe.
