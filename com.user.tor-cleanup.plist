@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.tor-cleanup</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/sh</string>
+        <string>-c</string>
+        <string>/bin/rm -rf /Users/imac/Downloads/Tor\ Downloads/* /Users/imac/Downloads/*.part /Users/imac/Downloads/*.download 2>/dev/null; /usr/bin/find /Users/imac/Downloads -name "*.part" -o -name "*.download" -delete 2>/dev/null</string>
+    </array>
+    <key>WatchPaths</key>
+    <array>
+        <string>/Users/imac/Downloads/Tor Downloads</string>
+    </array>
+    <key>RunAtLoad</key>
+    <false/>
+    <key>KeepAlive</key>
+    <false/>
+</dict>
+</plist>
